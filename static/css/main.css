@@ -1,0 +1,94 @@
+body {
+    background: #003973;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E5E5BE, #003973);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: left;
+  }
+  h3.r {
+    text-align: right;
+  }
+  
+  p.a {
+    text-align-last: left;
+  }
+  
+  p.b {
+    text-align-last: center;
+  }
+  
+  p.c {
+    text-align-last: justify;
+  }
+  .imgpro {
+    width: 150px !important;
+    height: 150px !important;
+    background-position:left;
+    margin: 0.5em 0.4em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    text-align: center;
+    line-height: 50px;
+    font-family: consolas;
+    top: 50%;
+    left: 50%;
+    
+  }
+  
+  /* colocar texto sobre cuadro a color */
+  .bloque {
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    display: inline-table;
+  }
+  
+  .tex {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  p.nowrap {
+    white-space: nowrap;
+  }
+  
+  /* archivo dentro deja  */
+  .box {
+    background: linear-gradient(105deg,
+        rgba(255, 255, 255, 0.2) 39%,
+        rgba(51, 56, 57, 1) 96%) center center / 400px 200px no-repeat, url(big-star.png) center no-repeat, rebeccapurple;
+  }
+  
+  
+  /* para titulo y subtitulos con h1 */
+  h1.concss {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: monospace;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #b80935;
+    word-spacing: 8px;
+    text-align: right
+  }
+  
+  .img {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
