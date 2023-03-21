@@ -32,11 +32,11 @@ def seguridad():
     return render_template('seguridad.html')
 
 @app.route('/conectividad')
-def seguridad():
+def conectividad():
     return render_template('conectividad.html')
 
 @app.route('/soporteyservicios')
-def seguridad():
+def soporteyservicios():
     return render_template('soporteyservicios.html')
 
 
