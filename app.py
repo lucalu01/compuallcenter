@@ -31,6 +31,15 @@ def infraestructura():
 def seguridad():
     return render_template('seguridad.html')
 
+@app.route('/conectividad')
+def seguridad():
+    return render_template('conectividad.html')
+
+@app.route('/soporteyservicios')
+def seguridad():
+    return render_template('soporteyservicios.html')
+
+
 if __name__=='__main__':
     HOST = os.environ.get('SERVER_HOST', 'localhost')
     try:
