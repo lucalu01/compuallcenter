@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'compuallcentervzla'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0667B65959EF450091A6C7096B75AED6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BFC9A772FEA042CEB757A47BFE097067 }}
